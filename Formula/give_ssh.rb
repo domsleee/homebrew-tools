@@ -3,7 +3,7 @@ class GiveSsh < Formula
   homepage "https://github.come/domsleee/give_ssh"
 
 
-  url "https://github.com/domsleee/give_ssh/get/HEAD.zip", :using => :curl
+  url "https://github.com/domsleee/give_ssh/archive/1.0.5.tar.gz", :using => :curl
 
   def install
     bin.install "give_ssh"
